@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class array{
+public class ReversedArray{
   public static void main(String args[]){
     System.out.println("Enter the size of the array:");
     Scanner sc = new Scanner(System.in);
