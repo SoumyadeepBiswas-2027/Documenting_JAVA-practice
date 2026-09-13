@@ -8,7 +8,7 @@ static void operation(int arr[]){
     for(int i=0; i<arr.length-1; i++){
         if (arr[i] > arr[i + 1]) {
            System.out.println("NOT Sorted");
-              return;
+             return;
         }
     }
      System.out.println("Sorted");
@@ -23,7 +23,6 @@ public static void main(String[] args){
   for (int i = 0; i < n; i++) {
       arr[i] = sc.nextInt();
   }
-  
   operation(arr);
 }
 }
